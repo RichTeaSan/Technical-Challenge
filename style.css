@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .container {
@@ -38,7 +38,29 @@ form button {
 }
 
 .button {
-    display: flex
+    display: flex;
     width: 100%;
-    
+    justify-content: center;
 }
+
+.Name {
+    display: flex;
+    width: 87%;
+    justify-content: center;
+    margin: 10px;
+}
+
+.Email {
+    display: flex;
+    width: 87%;
+    justify-content: center;
+    margin: 10px;
+}
+
+.Card {
+    display: flex;
+    width: 87%;
+    justify-content: center;
+    margin: 10px;
+}
+
