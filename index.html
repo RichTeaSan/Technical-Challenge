@@ -9,7 +9,7 @@
 
     <body>
         <div class="container">
-            <form onsubmit="sendEmail(); reset(); return false;">
+            <form action="https://formsubmit.co/gabrielnassort@gmail.com" method="POST">
                 <h3><strong>Subscribe to book our coming course</strong></h3>
                     <div class="Name">
                         <label for="name" class="form-label">Name:</label>
@@ -24,29 +24,8 @@
                         <input type="number" id="card" placeholder="Enter a proxy Credit Card Number" required>
                     </div>
                 <div class="button">
-                    <button type="Submit">Submit</button>
+                    <button type="submit">Submit</button>
                 </div>
             </form>
-        </div>
-        <script src="https://smtpjs.com/v3/smtp.js"></script>
-        <script>
-            function sendEmail(){
-                Email.send({
-                    Host : "smtp.elasticemail.com",
-                    Username : "tc13072022@gmail.com",
-                    Password : "3B59EFCEBB194F2221A7891A4D36F3C3F00D",
-                    To : 'gabrielnassort@gmail.com',
-                    From : document.getElementById("email").value,
-                    Subject : "New  Course Submission",
-                    Body : "Name: " + document.getElementById("name").value
-                        + "<br> Email: " + document.getElementById("email").value
-                        + "<br> Card no: " + document.getElementById("card").value
-                }).then(
-                message => alert("Submitted sucessfully")
-                );
-            }
-        </script>
-    </body>
-
-        
+    </body>      
 </html>
