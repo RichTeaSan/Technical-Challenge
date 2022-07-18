@@ -57,6 +57,7 @@ form button {
     margin: 10px;
 }
 
+/* Width adjust card field */
 .Card {
     display: flex;
     width: 87%;
