@@ -1,4 +1,4 @@
-const luhnCheck = num => {
+const Card = num => {
     let arr = (num + '')
       .split('')
       .reverse()
@@ -11,4 +11,3 @@ const luhnCheck = num => {
   console.log(luhnCheck('4485275742308327'));
   console.log(luhnCheck(6011329933655299));
   console.log(luhnCheck(123456789));
-  // Luhn test
